@@ -1,5 +1,5 @@
 import React from "react";
-import Categories from "../components/Category/Categories";
+import Categories from "../components/CategoriesCard/CategoriesCard";
 
 function Category() {
   return (

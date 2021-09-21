@@ -8,7 +8,7 @@ import "../../style/style.css";
 function Header() {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="dark" expand="lg" variant="dark" id="navbar-container">
         <Navbar.Brand href="#">Narutoo</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -27,13 +27,14 @@ function Header() {
               <Navbar.Text className="navbar-link">Product</Navbar.Text>
             </Link>
           </Nav>
-
-          <Button variant="success">
-            <div>
-              <TiShoppingCart fontSize="30" />
-              <Badge bg="info">{10}</Badge>
-            </div>
-          </Button>
+          <Link to="/checkout">
+            <Button variant="success">
+              <div>
+                <TiShoppingCart fontSize="30" />
+                <Badge bg="info">{10}</Badge>
+              </div>
+            </Button>
+          </Link>
         </Navbar.Collapse>
       </Navbar>
     </div>

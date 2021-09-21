@@ -1,5 +1,5 @@
 import React from "react";
-import ProductCard from "../components/Product/ProductCard";
+import ProductCard from "../components/ProductCard/ProductCard";
 
 import ".././style/style.css";
 import Filter from "../components/Filter/Filter";
@@ -12,6 +12,12 @@ function Products() {
           <Filter />
         </div>
         <div className="productContainer">
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
           <ProductCard />
           <ProductCard />
           <ProductCard />
